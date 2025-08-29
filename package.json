@@ -1,0 +1,22 @@
+{
+  "name": "simple-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "build": "npx tsc -b",
+    "start": "node src/index.js",
+    "dev": "npm run start && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
